@@ -6,7 +6,9 @@ import Block from '../../utils/Block';
 
 interface InterfaceProps {
   inputField: InputField,
-  mb?: string
+  mb?: string,
+  title?: string,
+  error?: string
 }
 
 class Input extends Block<InterfaceProps> {
